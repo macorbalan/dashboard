@@ -1,0 +1,19 @@
+.Chart{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(196,189,189,0.54);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(196,189,189,0.54);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(196,189,189,0.54);
+    
+}
+.chartTitle{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-weight: 900;
+    font-size: large;
+}
+.chartItem{
+    
+    background-color: rgba(255, 243, 243, 1);
+}

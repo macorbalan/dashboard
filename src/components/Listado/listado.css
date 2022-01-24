@@ -1,0 +1,71 @@
+.Listado{
+    flex:1;
+    margin:10px 5px;
+}
+.listadoChico{
+    color: blanchedalmond;
+}
+.tituloListadoChico{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ListContainer{
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+}
+.ListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listName{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listOwner{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listDescription{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ownerH, .estadoH, .ejecutarH{
+    font-weight: 600;
+}
+.listEstado{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listEjecutarDag{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: #555;
+    background-color: #c4e6cd;
+    cursor: pointer;
+}
+.ejeBTN{
+    font-size: 22px !important;
+}

@@ -1,0 +1,59 @@
+.Table{
+    flex:2;
+    margin: 10px 5px;
+}
+.tableTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+.tableBody{
+    width: 100%;
+    border-spacing: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.tableTh{
+    text-align: center ;
+}
+.tableTd{
+    padding: 5px 0;
+    text-align: center;
+}
+.OutDag{
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+}
+
+.Sucsess{
+    background-color: rgb(122, 248, 200);
+    color:#033321;
+    font-weight:600;
+}
+.Fail{
+    background-color: #f7737c;
+    color:#4d0c10;
+    font-weight:600;
+}
+.InProgress{
+    background-color: #7da4f8;
+    color:#071535;
+    font-weight:600;
+}
+.playBTN{
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.stopBTN{
+    font-size: 30px !important;
+    cursor: pointer;
+}

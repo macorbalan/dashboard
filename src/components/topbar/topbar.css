@@ -1,0 +1,55 @@
+.topbar{
+    width: 100%;
+    height: 70px;
+    
+    position: sticky;
+    top:0;
+    z-index: 999;
+    background-color: #1a1a1a;
+    color: blanchedalmond;
+}
+.logo{
+    width: 150px;
+}
+.topRight{
+    display: flex;
+    align-items: center ;
+}
+.topbarWrapper{
+     height: 100%;
+     padding: 0px 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.topbarOptions{
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #555;
+}
+
+.topbarOptions:hover{
+    border-bottom-style: solid;
+    border-color: blanchedalmond;
+}
+.topIconAdvice{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top:-5px;
+    right: 0px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topAvatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
